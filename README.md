@@ -1,18 +1,37 @@
-AkiPalavras - Jogo de Adivinhação com Python (CLI e GUI)
-AkiPalavras é um jogo interativo desenvolvido em Python onde o programa tenta adivinhar a palavra que o usuário está pensando, por meio de perguntas sequenciais com respostas "Sim" ou "Não". A proposta une lógica de programação e diversão, sendo ideal para fins didáticos, demonstrações de estrutura condicional ou projetos de gamificação educacional.
+# AkiPalavras - Jogo de Adivinhação com Python (CLI e GUI)
 
-Funcionalidades
-🧠 Lógica de filtragem: Com base nas respostas, o jogo elimina opções de uma lista até restar apenas uma palavra possível (ou um conjunto pequeno, quando não é possível determinar apenas uma).
+**AkiPalavras** é um jogo interativo desenvolvido em Python onde o programa tenta adivinhar a palavra que o usuário está pensando, por meio de perguntas sequenciais com respostas "Sim" ou "Não". A proposta une lógica de programação e diversão, sendo ideal para fins didáticos, demonstrações de estrutura condicional ou projetos de gamificação educacional.
 
-🖥️ Versão CLI (linha de comando): Totalmente funcional via terminal, com interação direta por texto, ideal para aprendizado de lógica e controle de fluxo.
+## 🎮 Funcionalidades
 
-🖼️ Versão GUI (interface gráfica com Tkinter): Com uma interface simples e acessível, essa versão oferece botões para as respostas e exibe dinamicamente as opções e perguntas, sendo estruturada com programação orientada a objetos.
+- Lógica de filtragem por respostas "Sim"/"Não"
+- Eliminação progressiva da lista de palavras
+- Versão CLI (linha de comando)
+- Versão GUI com Tkinter
 
-Tecnologias utilizadas
-Python 3.x
+## 🧠 Versão CLI
 
-Tkinter (para a interface gráfica)
+Disponível em `cli/akipalavras_cli.py`. Executável diretamente via terminal.
 
-Lógica condicional e manipulação de listas
+## 🖼️ Versão GUI
 
-Programação orientada a objetos (versão GUI)
+Disponível em `gui/akipalavras_gui.py`. Desenvolvida com Tkinter e organizada com orientação a objetos para melhor manutenibilidade.
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.x  
+- Tkinter  
+- Programação orientada a objetos  
+- Estruturas condicionais  
+- Manipulação de listas
+
+## 📚 Aplicações
+
+- Ensino de lógica de programação em Python
+- Projetos educacionais e de gamificação
+- Prática com desenvolvimento de interfaces gráficas
+
+---
+
+Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades.
+
